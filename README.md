@@ -22,7 +22,7 @@ Save and Document Results Capture screenshots of the waveform and save the simul
 
 # Moore 1011
 
-<img width="144" height="300" alt="image" src="https://github.com/user-attachments/assets/ec255e61-3c47-4a62-8505-38e12efd2e6c" />
+<img width="1920" height="1013" alt="501505051-83331497-dbd5-4c13-954e-a8047ca356e2" src="https://github.com/user-attachments/assets/04404cc8-32af-433b-8389-35a2f2a70e6c" />
 
 
 # Code
