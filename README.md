@@ -15,9 +15,20 @@ Create the Verilog Files Create both the design module and the testbench in the 
 Run Simulation Run the behavioral simulation to verify the output.
 Observe the Waveforms Analyze the output waveforms in the simulation window, and verify that the correct read and write operation.
 Save and Document Results Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
+# Block Diagram
+# Mealy 1011
+
+<img width="373" height="657" alt="image" src="https://github.com/user-attachments/assets/c1905341-83c8-42f4-b839-1f102b75fa49" />
+
+# Moore 1011
+
+<img width="144" height="300" alt="image" src="https://github.com/user-attachments/assets/ec255e61-3c47-4a62-8505-38e12efd2e6c" />
+
+
 # Code
 # Mealy 1011
-// Verilog code
+# Verilog code
+
 ```
 module mealy(input clk, rst, xin, output reg z);
 parameter [1:0] s0= 2'b00, s1= 2'b01, s2= 2'b10, s3= 2'b11;
@@ -61,7 +72,8 @@ begin
 endmodule
 ```
 
-// Test bench
+# Test bench
+
 ```
 module mealy_tb;
 reg clk,rst,xin;
@@ -85,13 +97,16 @@ initial
        endmodule
 ```
 
-// output Waveform
+# output Waveform
 
-<img width="1005" height="540" alt="image" src="https://github.com/user-attachments/assets/c7316efe-4442-407e-a32c-62a82f2013f8" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-15 101657" src="https://github.com/user-attachments/assets/7317ed85-4259-41fd-bff4-b82879063bda" />
+
+
 
 # Moore 1011
 
-// write verilog code for ROM using $random
+# verilog code 
+
 ```
 module moore_2(clk,rst,in,out);
 input clk,in,rst;
@@ -146,7 +161,8 @@ always @(current_state,in)begin
 endmodule
 ```
 
-// Test bench
+# Test bench
+
 ```
 module moore_2_tb;
 reg clk,rst,in;
@@ -170,11 +186,12 @@ in=0;
 end
 endmodule
 ```
-// output Waveform
+
+# output Waveform
+
+<img width="1920" height="1080" alt="Screenshot 2025-10-15 101843" src="https://github.com/user-attachments/assets/83331497-dbd5-4c13-954e-a8047ca356e2" />
 
 
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/3ae6ff1d-3de4-4c60-8b5d-63060b737e4f" />
 
-
-Conclusion
+# Conclusion
 The Mealy and Moore state machine for sequence 1011 was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the sequence operations and observing the output waveforms.
