@@ -22,8 +22,7 @@ Save and Document Results Capture screenshots of the waveform and save the simul
 
 # Moore 1011
 
-<img width="1920" height="1013" alt="501505051-83331497-dbd5-4c13-954e-a8047ca356e2" src="https://github.com/user-attachments/assets/04404cc8-32af-433b-8389-35a2f2a70e6c" />
-
+<img width="144" height="300" alt="image" src="https://github.com/user-attachments/assets/ec255e61-3c47-4a62-8505-38e12efd2e6c" />
 
 # Code
 # Mealy 1011
@@ -71,9 +70,7 @@ begin
               end
 endmodule
 ```
-
 # Test bench
-
 ```
 module mealy_tb;
 reg clk,rst,xin;
@@ -96,16 +93,12 @@ initial
        always #5 clk=~clk;
        endmodule
 ```
-
-# output Waveform
-
-<img width="1920" height="1080" alt="Screenshot 2025-10-15 101657" src="https://github.com/user-attachments/assets/7317ed85-4259-41fd-bff4-b82879063bda" />
-
+# Output Waveform
+<img width="1920" height="1149" alt="502408303-298d66eb-56c9-462a-9e44-51e992cf0706" src="https://github.com/user-attachments/assets/bbf15be5-e2a1-44ea-942b-c2ddbfea6525" />
 
 
 # Moore 1011
-
-# verilog code 
+# Verilog Code
 
 ```
 module moore_2(clk,rst,in,out);
@@ -160,9 +153,7 @@ always @(current_state,in)begin
         end
 endmodule
 ```
-
-# Test bench
-
+# Test Bench
 ```
 module moore_2_tb;
 reg clk,rst,in;
@@ -186,11 +177,8 @@ in=0;
 end
 endmodule
 ```
-
-# output Waveform
-
-<img width="1920" height="1080" alt="Screenshot 2025-10-15 101843" src="https://github.com/user-attachments/assets/83331497-dbd5-4c13-954e-a8047ca356e2" />
-
+# Output Waveform
+<img width="1920" height="1134" alt="502414888-93e8f324-1363-4e33-84db-ca73651373ee" src="https://github.com/user-attachments/assets/0e46d390-f30d-42cc-8f05-2d7807f48b0e" />
 
 
 # Conclusion
